@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stateless Session Bean</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="background-color: orange; font-family: verdana; font-size: 12px">
+        <h3>Welcome to the Stateless Session Bean Calculator</h3>
+        <br><br>
+        <form action="calculator" style="text-align: left;">
+            <table>
+                <tr>
+                <th>Enter fist number : </th>
+                <td><input name="num1" required="required" type="text"/></td>
+                </tr>
+                <tr><td></td><td></td></tr>
+                <tr>
+                <th>Enter second number : </th>
+                <td><input name="num2" required="required" type="text"/></td>
+                </tr>
+                <tr><td></td><td></td></tr>
+                <tr>
+                <th>Choose Operation : </th>
+                <td><input type="radio" name="group1" value ="add">Addition<br>
+                    <input type="radio" name="group1" value ="sub">Subtraction<br>
+                    <input type="radio" name="group1" value ="multi">Multiplication<br>
+                    <input type="radio" name="group1" value ="div">Division<br>
+                </td>
+                </tr>
+                <tr><td></td><td></td></tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" name="submit" value ="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

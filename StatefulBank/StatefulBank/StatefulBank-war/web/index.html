@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Stateful Bank</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="background-color: lightgreen; font-family: verdana; font-size: 12px">
+        <h3>Welcome to the Stateful Session Bean Bank Application</h3>
+        <br><br>
+        <form action="sbank">
+            <table>
+                <tr>
+                <th>Enter Amount : </th>
+                <td><input name="amount" required="required" type="text"/></td>
+                </tr>
+                <tr><td></td><td></td></tr>
+                <tr>
+                <th>Choose Operation : </th>
+                <td><input type="radio" name="group1" value ="deposit">Deposit<br>
+                    <input type="radio" name="group1" value ="withdraw">Withdraw<br>
+                </td>
+                </tr>
+                <tr><td></td><td></td></tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" name="submit" value ="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
